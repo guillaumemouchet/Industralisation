@@ -5,7 +5,7 @@ import pytest
 from src.wallet import Wallet, InsufficientAmount
 from tests.fixtures.wallet_fixtures import empty_wallet, wallet
 
-
+# Ajout du code pour tester Sonar cloud
 def test_default_initial_amount(empty_wallet):
     """Tests that initial balance of empty_wallet is 0"""
     assert empty_wallet.balance == 0
