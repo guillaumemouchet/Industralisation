@@ -35,3 +35,17 @@ Sonard Cloud nous défini directement les différents indicateurs.
 ### À quoi sert l’indicateur Quality Gate ?
 
 - SonarCloud nous dit directement que "Une Quality Gate est un ensemble de conditions booléennes bassées sur des mesures. Cela aide à savoir directement si le projet est prêt pour la production. Dans le cas ou le status actuel n'est pas réussis, les mesures qui ont posés problème ainsi que les valeurs nécessaire pour réussir."
+
+### Quelle est la différence entre les sections New code et Overall Code dans l’onglet Summary ?
+
+- New Code test uniquement les nouveaux ajouts de code détecté depuis le dernier commit alors que Overall Code correspond à l'ensemble du code dans le projet.
+
+### Y a-t-il des Code Smells ? Si oui, combien et pour quelle(s) raisons(s) ?
+
+- Il y a 3 Code Smells
+  ![CodeSmells](CodeSmells.png)
+
+### Y a-t-il des Security Hotspots ? Si oui, combien et pour quelle(s) raison(s) ?
+
+- Il y a 1 Security Hotspots
+  ![Hotspots](Hotspots.png)
