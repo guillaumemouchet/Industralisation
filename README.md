@@ -49,3 +49,5 @@ Sonard Cloud nous défini directement les différents indicateurs.
 
 - Il y a 1 Security Hotspots
   ![Hotspots](Hotspots.png)
+
+## Exo 3 Gitlab CI/CD
